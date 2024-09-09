@@ -1,5 +1,5 @@
 create database INVENTARIO;
-
+#DROP DATABASE INVENTARIO;
 use INVENTARIO;
 
 create table Usuarios(
@@ -30,6 +30,7 @@ create table Productos(
     Estado int,
     PRIMARY KEY (ID)
 );
+ALTER TABLE Productos MODIFY COLUMN FechaCreacion TIMESTAMP DEFAULT CURRENT_TIMESTAMP;
 
 create table ProductosHistorial(
 	ID int not null,

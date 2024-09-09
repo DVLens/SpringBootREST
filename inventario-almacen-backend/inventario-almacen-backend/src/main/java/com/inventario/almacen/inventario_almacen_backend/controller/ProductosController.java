@@ -16,7 +16,8 @@ import java.util.Map;
 
 ///
 /// Controlador de Productos
-///
+///TODO: Moverla cadena de conexión a un archivo secreto docker
+@CrossOrigin(origins = "http://localhost:3000/")
 @RestController
 @RequestMapping("/api/v1")
 public class ProductosController {

@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ProductosTableComponent from './components/ProductosTableComponent';
 
 function App() {
   return (
+
     <div className="App">
-<h1>Momazos Nati</h1>
+        <ProductosTableComponent/>  
     </div>
   );
 }
