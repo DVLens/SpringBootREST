@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import ProductosService from "../services/ProductosService"
+import '../styles/Tablas.css';
 
 export const ProductosTableComponent = () => {
     const [productos, setProductos] = useState([]);
